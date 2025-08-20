@@ -18,13 +18,12 @@ print("sravani".ljust(40," ")+"Reddy".rjust(40," "))
 print("Vishnu".ljust(40," ")+"vardhan".rjust(42," "))
 print("Krishna".ljust(40," ")+"Reddy".rjust(40," "))
 print("Rama".ljust(40," ")+"Devi".rjust(39," "))
-n=int(input())
-f={}
-for i in range(0,n):
-    f["fname"]=input()
-    f["lname"]=input()
-print(f.keys())
-
+string="Hema is a good girl"
+print(sorted(string))
+def centerbanner(s):
+    return s.center(50,"*")
+s=input()
+print(centerbanner(s))
 
 
 

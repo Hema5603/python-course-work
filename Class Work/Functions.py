@@ -52,8 +52,10 @@ def prime(a):
     for i in range(2,a):
         if a%i==0:
             return "Not Prime"
-        else:
-            return "Prime"
+            break
+    else:
+        return "Prime"
+print()
 a=int(input())
 print(prime(a))
 #len function
@@ -91,6 +93,9 @@ def primt_num(n):
                 break
         else:
             print(f"{i}")
+n=int(input())
+primt_num(n)
+
 
     
             
